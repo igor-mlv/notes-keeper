@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #eee;
+    padding: 0 16px;
+    padding-bottom: 300px;
+}
+
+
+header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    right: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer p {
+    color: #ccc;
+}
+
+.note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+    position: relative;
+}
+
+.new-note-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+.new-note-input-block {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 50%;
+    height: 80%;
+    min-height: 20vh;
+    margin: 16px;
+    position: relative;
+
+}
+
+.add-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    color: #fff;
+    background-color: #f5ba13;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}
+
+.delete-button {
+    width: 60px;
+    height: 30px;
+    border-radius: 10%;
+    border: 0;
+    color: #fff;
+    background-color: #f5ba13;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}
+
+.title-input,
+.note-input {
+    display: block;
+    border: 0;
+    resize: none;
+    width: 100%;
+    height: 50px;
+}
+
+
+.note h1,
+.new-note-input-block h1,
+.title-input {
+    font-family: "McLaren", cursive;
+    font-size: 1.4em;
+    margin-bottom: 6px;
+}
+
+.note p,
+.new-note-input-block p,
+.add-button,
+.note-input {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.note p {
+    margin-bottom: 35px;
+}
