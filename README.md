@@ -43,7 +43,9 @@ Delete notes by clicking the delete button.
 React.js
 JavaScript
 HTML/CSS
-Contributing
+
+
+## Contributing
 
 Feel free to contribute, report issues, or suggest improvements!
 
