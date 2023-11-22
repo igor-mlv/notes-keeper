@@ -9,7 +9,7 @@ Notes Keeper: Simplify your note-taking. Create, edit, and delete notes with eas
 
 ## Clone the Repository:
 
-### `git clone https://github.com/your-username/notes-keeper-app.git`
+### `git clone https://github.com/igor-mlv/notes-keeper.git`
 
 
 ## Navigate to the Project Directory:
