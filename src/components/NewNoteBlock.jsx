@@ -1,5 +1,6 @@
 import React from "react";
 
+// Functional component for the new note input block
 function NewNoteBlock(props) {
     return (
         <div className="new-note-container">
@@ -12,4 +13,5 @@ function NewNoteBlock(props) {
     );
 }
 
+// Export the component as the default export
 export default NewNoteBlock;

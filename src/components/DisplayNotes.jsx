@@ -1,6 +1,7 @@
 import React from "react";
 import Note from "./Note";
 
+// Functional component to display a list of notes
 function DisplayNotes(props) {
     return (
         <div className="notes-container">
@@ -17,4 +18,5 @@ function DisplayNotes(props) {
     );
 }
 
+// Export the component as the default export
 export default DisplayNotes;

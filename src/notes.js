@@ -1,3 +1,4 @@
+// Sample data for the initial state of notes
 const notes = [
     {
         id: 1,
