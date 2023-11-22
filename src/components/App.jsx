@@ -12,9 +12,12 @@ function App() {
     const [notes, setNotes] = useState([]);
 
     useEffect(() => {
-        // Assuming notesFile is available in the component scope
-        setNotes(notesFile);
-    }, [notesFile]);
+        const fetchData = async () => {
+            setNotes(notesFile);
+        };
+
+        fetchData();
+    }, []);
 
     function handleChange(event) {
         if (event.target.id === "inputTitle") {
@@ -31,9 +34,6 @@ function App() {
 
             return [...prevItems, { id: nextId, title: inputTitle, content: inputNote }];
         });
-        console.log(notes.map((note, index) => (
-            `Note ${note.id}: Title - ${note.title}, Content - ${note.content}`
-        )));
         setInputTitle("");
         setInputNote("");
     }
