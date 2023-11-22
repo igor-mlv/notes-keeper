@@ -1,9 +1,9 @@
 const notes = [
     {
         id: 1,
-        title: "Delegation",
+        title: "Programmer's Diet",
         content:
-            "Q. How many programmers does it take to change a light bulb? A. None – It’s a hardware problem"
+            "A balanced diet is when you have a coffee in one hand and a pizza in the other while debugging code with your third hand."
     },
     {
         id: 2,
@@ -13,9 +13,9 @@ const notes = [
     },
     {
         id: 3,
-        title: "Arrays",
+        title: "Programmer's Excursion",
         content:
-            "Q. Why did the programmer quit his job? A. Because he didn't get arrays."
+            "Why do programmers prefer nature walks? Because the outdoors has the best refresh rate."
     },
     {
         id: 4,
